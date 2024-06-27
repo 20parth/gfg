@@ -46,7 +46,7 @@
 /*----------------------------------------*/
 @import url("../../../../css2");
 :root {
-  --primary: #392D6A;
+  --primary: #318d44;
   --secondary: #DEFE5D;
   --white: #fff;
   --white-2: #E8E8E8;
@@ -56,7 +56,7 @@
   --black-3: #232323;
   --gray: #555555;
   --gray-2: #999999;
-  --green: #7D5DFE;
+  --green: #3eb656;
   --green-2: #09002E;
   --green-3: #120837;
   --green-4: #251F41;
