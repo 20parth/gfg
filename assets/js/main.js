@@ -30,8 +30,11 @@
 
   // Preloader
   $(document).ready(function () {
-    $('.cxu-preloader').hide();
+    setTimeout(function () {
+      $('.cxu-preloader').hide();
+    }, 1000); // 5000 milliseconds = 5 seconds
   });
+
 
 
   // Search
