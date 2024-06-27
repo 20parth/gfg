@@ -1758,67 +1758,27 @@ img {
   height: 100%;
   background-color: var(--white-3);
   z-index: 9;
+  opacity: 1;
+  animation: fadeOut 10s forwards; /* Adjust duration as needed */
 }
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
 .cxu-preloader .wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   height: 100%;
 }
-.cxu-preloader .lines {
-  text-align: center;
-}
-.cxu-preloader .line {
-  width: 3px;
-  height: 20px;
-  background: var(--primary);
-  margin: 0 1px;
-  display: inline-block;
-  -webkit-animation: preloaderAnimation 1000ms infinite ease-in-out;
-          animation: preloaderAnimation 1000ms infinite ease-in-out;
-}
-.cxu-preloader .line-1 {
-  -webkit-animation-delay: 800ms;
-          animation-delay: 800ms;
-}
-.cxu-preloader .line-2 {
-  -webkit-animation-delay: 600ms;
-          animation-delay: 600ms;
-}
-.cxu-preloader .line-3 {
-  -webkit-animation-delay: 400ms;
-          animation-delay: 400ms;
-}
-.cxu-preloader .line-4 {
-  -webkit-animation-delay: 200ms;
-          animation-delay: 200ms;
-}
-.cxu-preloader .line-6 {
-  -webkit-animation-delay: 200ms;
-          animation-delay: 200ms;
-}
-.cxu-preloader .line-7 {
-  -webkit-animation-delay: 400ms;
-          animation-delay: 400ms;
-}
-.cxu-preloader .line-8 {
-  -webkit-animation-delay: 600ms;
-          animation-delay: 600ms;
-}
-.cxu-preloader .line-9 {
-  -webkit-animation-delay: 800ms;
-          animation-delay: 800ms;
-}
+
 .cxu-preloader .text {
   color: var(--primary);
   margin: 5px 0;
@@ -1827,6 +1787,7 @@ img {
   font-size: 20px;
   letter-spacing: 2px;
 }
+
 
 /*----------------------------------------*/
 /*  10. MENU CSS START
