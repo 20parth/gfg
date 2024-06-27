@@ -19,7 +19,12 @@
   <link rel="stylesheet" href="assets/css/magnific-popup.css">
   <link rel="stylesheet" href="assets/css/master.css">
   <link rel="stylesheet" href="style.css">
-
+  <!-- META Start -->
+  <meta property="og:title" content="gfg's mgmu student chapter" />
+  <meta property="og:type" content="geeksforgeeks mgmu mgmu student chapter geeksforgeeks student chapter mgmu gfg chapter gfg mgmu events mgmu coding community gfg mgmu workshops gfg mgmu tutorials mgmu tech meetups gfg mgmu coding competitions geeksforgeeks mgmu seminars mgmu tech enthusiasts mgmu gfg members gfg mgmu coding resources geeksforgeeks mgmu activities" />
+  <meta property="og:url" content="https://gfg.run.place/" />
+  <meta property="og:image" content="https://gfg.run.place/assets/imgs/logo/gfg-logo.eb709c2b.png"/>
+  <!-- META END's -->
 </head>
 
 <body>
