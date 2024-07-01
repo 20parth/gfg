@@ -48,8 +48,9 @@
   <div id="smooth-wrapper">
     <div id="smooth-content">
 
+    <!-- ------------------------php------------------------------- -->
       <?php include('./assets/include/navbar.php') ?>
-
+    <!-- -------------------------php------------------------------ -->
 
       <!-- Hero section start -->
       <section class="hero__area pt-100 pb-100">
