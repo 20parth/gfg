@@ -1,9 +1,24 @@
+<?php
+// Define the log file path
+$logFile = __DIR__ . '/../logs/404_errors.log';
+
+// Create the logs directory if it doesn't exist
+if (!file_exists(dirname($logFile))) {
+    mkdir(dirname($logFile), 0777, true);
+}
+
+// Log the error
+$current = file_get_contents($logFile);
+$current .= "404 Error: " . $_SERVER['REQUEST_URI'] . " - " . date("Y-m-d H:i:s") . "\n";
+file_put_contents($logFile, $current);
+?>
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="refresh" content="7;url=/" />
   <title>Page Not Found</title>
 
   <!-- Fav Icon -->
