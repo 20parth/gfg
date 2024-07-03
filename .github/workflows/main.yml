@@ -11,7 +11,7 @@ jobs:
         
       # Run the fix-git-config script
       - name: Fix Git Config
-        run: bash fix-git-config.sh
+        run: bash ./../../fix-git-config.sh
 
       - name: build_and_deploy
         uses: shalzz/zola-deploy-action@v0.17.2
