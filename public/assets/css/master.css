@@ -3061,6 +3061,13 @@ img {
     margin-top: -20px;
   }
 }
+@media (max-width: 320px) {
+  .hero__title-wrap .img {
+      max-width: 199px;
+      margin-top: -35px;
+      margin-left: 42px;}
+    }
+
 .hero__title-2 {
   font-size: 100px;
   font-weight: 500;
