@@ -46,8 +46,8 @@
 /*----------------------------------------*/
 @import url("../../../../css2");
 :root {
-  --primary: #318d44;
-  --secondary: #DEFE5D;
+  --primary: #308d46;
+  --secondary: #48fc45;
   --white: #fff;
   --white-2: #E8E8E8;
   --white-3: #E2E2E2;
@@ -55,7 +55,7 @@
   --black-2: #060606;
   --black-3: #232323;
   --gray: #555555;
-  --gray-2: #999999;
+  --gray-2: #f2f7eb;
   --green: #3eb656;
   --green-2: #09002E;
   --green-3: #120837;
@@ -3436,11 +3436,20 @@ img {
 .breadcrumb__area {
   padding-top: 140px;
   padding-bottom: 140px;
-  background-image: url(../imgs/breadcrumb/about-us.jpg);
+  background: linear-gradient(300deg, #308d46, #27b347, #069928);
+  background-size: 180% 180%;
   background-position: center center;
-  background-size: cover;
   position: relative;
+  animation: gradient-animation 18s ease infinite;
 }
+
+@keyframes gradient-animation {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+
 @media (max-width: 991px) {
   .breadcrumb__area {
     padding-top: 100px;
