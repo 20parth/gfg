@@ -7005,7 +7005,7 @@ img {
   display: grid;
   -ms-grid-columns: 1fr 15px 3fr;
   grid-template-columns: 1fr 3fr;
-  background-color: #FAFAFA;
+  background-color: #a4ef88;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   border-radius: 5px;
