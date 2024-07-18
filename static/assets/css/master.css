@@ -49,8 +49,8 @@
   --primary: #308d46;
   --secondary: #48fc45;
   --white: #fff;
-  --white-2: #E8E8E8;
-  --white-3: #E2E2E2;
+  --white-2: #ffffff;
+  --white-3: #fffdfd;
   --black: #000000;
   --black-2: #060606;
   --black-3: #232323;
@@ -7172,7 +7172,7 @@ img {
   color: var(--white);
 }
 .cxu--team.style-1 .member:hover .designation {
-  color: #E2E2E2;
+  color: #fcfcfc;
 }
 .cxu--team.style-1 .bio {
   min-width: 210px;
