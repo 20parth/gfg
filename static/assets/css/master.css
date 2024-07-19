@@ -121,6 +121,9 @@
   margin: 1.4em 1em;
   padding: 8% !important;
 }
+.cards:hover {
+  box-shadow: 0 5px 30px var(--primary) !important;
+}
 .get-started {
   margin-bottom: 5em;
 }
