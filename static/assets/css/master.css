@@ -119,6 +119,10 @@
 .cards {
   border-radius: 2em !important;
   margin: 1.4em 1em;
+  padding: 8% !important;
+}
+.get-started {
+  margin-bottom: 5em;
 }
 .pb-100 {
   padding-bottom: 100px;
