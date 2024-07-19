@@ -71,7 +71,7 @@
 .splash {
   display: grid;
   grid-template-columns: 1fr 2fr 3fr 1fr;
-  grid-template-rows: 9fr 3fr 6fr;
+  grid-template-rows: minmax(20vh, 6fr) 3fr 6fr;
   height: min-content;
   width: 100vw;
   box-sizing: border-box;
@@ -87,7 +87,7 @@
   background-image: url("/assets/imgs/new images/web2.jpg");
   height: 100%;
   width: 100%;
-  background-repeat: none;
+  background-repeat: no-repeat;
   background-size: 100%;
   background-position: center;
   transition: 0.5s;
