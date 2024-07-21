@@ -1069,7 +1069,7 @@ img {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.6;
-  color: var(--white);
+  color: var(--primary);
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -1078,7 +1078,7 @@ img {
   align-items: center;
   padding: 20px 40px;
   border-radius: 30px;
-  border: 1px solid var(--white-3);
+  border: 1px solid var(--green);
   position: relative;
   overflow: hidden;
   z-index: 1;
@@ -5519,10 +5519,10 @@ img {
 }
 
 .portfolio__area-2 {
-  background-color: var(--primary);
+  background-color: var(--white);
 }
 .portfolio__area-2 .sec-title {
-  color: var(--white);
+  color: var(--primary);
 }
 .portfolio__area-3 {
   padding-bottom: 170px;
@@ -5907,7 +5907,7 @@ img {
   color: var(--green);
 }
 .cxu--portfolio .title a {
-  color: inherit;
+  color: var(--primary);
 }
 .cxu--portfolio ul li {
   display: inline-block;
@@ -5952,7 +5952,7 @@ img {
   width: 80px;
   height: 80px;
   border-radius: 80px;
-  border: 1px solid #d9d9d9;
+  border: 1px solid #0b9c04;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
