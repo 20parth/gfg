@@ -93,7 +93,7 @@
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center;
-  transition: 0.5s background, 0.5s filter;
+  transition: 0.5s background-size, 0.5s filter;
   filter: opacity(1);
   height: 100%;
   width: 100%;
